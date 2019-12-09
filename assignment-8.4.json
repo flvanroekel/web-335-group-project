@@ -1,0 +1,77 @@
+{
+    "movies": [
+        {
+            "id": "1",
+            "title": "Movie 1",
+            "description": "Desc for Movie 1",
+            "running_time": "78"
+        }
+    ],
+    "users":[
+        {
+            "id": "AdminUser",
+            "password": "a9vjkn2&%~kdo+",
+            "name": "Admin",
+            "email": "admin@nodeflix.com",
+            "phone": "x4576",
+            "initials": "EP",
+            "last_login": "12/8/2019",
+            "last_activity": "12/7/2019",
+            "last_logout": "12/7/2019",
+            "is_admin": "1",
+            "is_active": "1",
+            "is_logged_in": "1"
+        }
+    ],
+    "activity":[
+        {
+            "id": "1",
+            "start_date": "12/5/2019",
+            "user_id": "13",
+            "review_id": "45",
+            "code": "5",
+            "start_secs": "83"
+        }
+    ],
+    "_reviews":[
+        {
+            "id": "45",
+            "created_by": "Test User",
+            "created_date": "12/5/2019",
+            "phase_id": "12",
+            "rule_template": "N/A",
+            "private_view": "1",
+            "title": "This is a test review"
+        }
+    ],
+    "roles":[
+        {
+            "id": "1",
+            "system_name": "ADMIN",
+            "display_name": "Admin",
+            "description": "Role gives user full rights to all pages & workflow",
+            "template": ""
+        }
+    ],
+    "shows":[
+        {
+            "id":"56",
+            "name": "Show 56"
+        }
+    ],
+    "genres":[
+        {
+            "id": "14",
+            "name": "sports"
+        }
+    ],
+    "phases": [
+        {
+            "id": "23",
+            "title": "Move dashboard to left",
+            "help1": "",
+            "help2": "",
+            "help3": ""
+        }
+    ]
+}
